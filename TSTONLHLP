@@ -9,8 +9,8 @@
       *  ---------------------------------------------------------------------
       *  - Compile Information   SEU OPTION 14
       *  ---------------------------------------------------------------------
-      *  This Program is created with CRTBNDRPG and in the library QPCSSRC
-      * CRTBNDRPG PGM(*LIBRARY/TSTONLHLP) SRCFILE(*LIBRARY/QRPGLESRC)
+      *  This Program is created with CRTBNDRPG and in the library QGPL
+      * CRTBNDRPG PGM(QGPL/TSTONLHLP) SRCFILE(QGPL/QRPGLESRC)
       *  SRCMBR(TSTONHLP) REPLACE(*YES) OPTION(*EVENTF) DBGVIEW(*SOURCE)
       *
       ** ---------------------------------------------------------------------
