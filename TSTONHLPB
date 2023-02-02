@@ -1,0 +1,17 @@
+     A          R FMTNEWCR
+     A                                      CF03(03 'Exit')
+     A                                      CF06(06 'Save')
+     A                                      CF12(12 'Cancel')
+     A                                  2 72DATE
+     A                                 21  4'F3=Exit'
+     A                                      COLOR(BLU)
+     A                                 21 37'F12=Cancel'
+     A                                      COLOR(BLU)
+     A                                  2 59TIME
+     A                                 21 15'F6=Save the Record'
+     A                                      COLOR(BLU)
+     A            XHLP           1   I  2 21VALUES('H')
+     A                                  2  3'Help Text Online'
+     A                                  2 24'(H and press Enter)'
+     A                                      COLOR(WHT)
+                                                                       
