@@ -40,7 +40,7 @@
      C
      C*Main
      C                   DOU       *in03 OR *in12
-     C                   exfmt     fmtNewCR
+     C                   exfmt     Window
      C
      C                   If        xhlp = 'H'
      C                   exsr      showHomePage
