@@ -6,7 +6,7 @@ For this Example you must create first the Display File QGPL/QDDSSRC/TSTONHLB.DS
 CRTDSPF SRCFILE(QGPL/QDDSSRC) SRCMBR(TSTONHLPB) REPLACE(*YES) OPTION(*EVENTF)  FILE(QGPL/TSTONHLPB)
 
 After this Display file was successfull created, copy the SourceCode of TSTONHLP and create a Object in the Library QGPL/QRPGLESRC/TSTONHLP.RPGLE  
-Compile this Programm with a following Command
+Compile this Programm with a following Command </br>
 CRTBNDRPG PGM(QGPL/TSTONHLP) SRCFILE(QGPL/QRPGLESRC) SRCMBR(TSTONHLP) REPLACE(*YES) OPTION(*EVENTF) DBGVIEW(*SOURCE)
 
 Now you can test it, with CALL TSTONHLP 
@@ -15,7 +15,7 @@ Now you can test it, with CALL TSTONHLP
 
 
 Now you type a "H" in the field and press Enter. 
-Now the 5250 Client open automatically a default Browser on your Client and this show following Homepage on. 
+Now the 5250 Client open automatically a default Browser on your Client and displays the following homepage.
 
 Result ;)
 https://google.com  
