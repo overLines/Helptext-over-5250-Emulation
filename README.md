@@ -17,5 +17,4 @@ Now you can test it, with CALL TSTONHLP
 Now you type a "H" in the field and press Enter. 
 Now the 5250 Client open automatically a default Browser on your Client and displays the following homepage.
 
-Result ;)
 https://google.com  
