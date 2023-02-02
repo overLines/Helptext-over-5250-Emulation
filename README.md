@@ -14,7 +14,7 @@ Now you can test it, with CALL TSTONHLP
 ![alt text](https://github.com/overLines/Helptext-over-5250-Emulation/blob/main/hlp.png)
 
 
-Now you type a "H" in the field and press Enter. 
+Now you type a "H" in the field and press enter on your Keyboard. 
 Now the 5250 Client open automatically a default Browser on your Client and displays the following homepage.
 
 https://google.com  
