@@ -25,7 +25,7 @@
      C
      C*Main
      C                   DOU       *in03 OR *in12
-     C                   exfmt     WINDOW
+     C                   exfmt     window
      C
      C                   If        xhlp = 'H'
      C                   exsr      showHomePage
@@ -37,31 +37,29 @@
      C
      C     showHomePage  Begsr
      C
-     C* PCO starten
-     C                   IF        not strpco                                   STRPCO = '0'
+     C* PCO start
      C                   EVAL      qdta = *blanks
+     C                   IF        not strpco                                   STRPCO = '0'
      C                   MOVEL     cmd(1)        qdta
-     C                   CALL      'QCMDEXC'                            99
-     C                   PARM                    qdta
-     C                   PARM                    ql
+     C                   exsr      cmdExec
      C                   IF        not *in99                                    *in99 = '0'
      C                   EVAL      strpco = *on
      C                   ENDIF                                                  E: *in99
      C                   ENDIF
-     C*
-     C                   EVAL      qdta = *blanks
      C                   MOVE      cmd(2)        BstrPco
      C                   MOVE      cmd(3)        EstrPco
      C                   EVAL      qdta = BstrPco + www + EstrPco
+     C                   exsr      CmdExec
+     C                   Endsr
      C
+     C     CmdExec       Begsr
      C                   CALL      'QCMDEXC'                            99
      C                   PARM                    qdta
      C                   PARM                    ql
-     C
      C                   Endsr
      C
      C
 **
 STRPCO
 STRPCCMD PCCMD('start
-') PAUSE(*NO)  
+') PAUSE(*NO)    
